@@ -1,27 +1,3 @@
-# go_print
-
-使用 golang 调用 rubylong 锐浪报表 Grid++Report 打印标签和文档
-
-#### 锐浪报表下载地址
-
-```
-http://www.rubylong.cn/gridreport/download.htm
-```
-
-#### 编辑模板标识
-
-![image](tag.jpg)
-
-#### 编辑记录集标识
-
-![image](field.jpg)
-
-#### 最终打印结果
-
-![image](test.jpg)
-
-#### 代码预览
-```go
 package main
 
 import (
@@ -206,4 +182,3 @@ func main() {
 		panic(err)
 	}
 }
-```
